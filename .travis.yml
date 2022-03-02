@@ -13,9 +13,9 @@ deploy:
   provider: pages
   skip-cleanup: true
   keep-history: true
-  github-token: $GITHUB_TOKEN
-local-dir: dist/
-target-branch: gh-pages
-commit_message: "Deploy of the project"
-on:
-  branch: master
+  github_token: $GITHUB_TOKEN
+  local-dir: dist/
+  target-branch: gh-pages
+  commit_message: "Deploy of the project"
+  on:
+    branch: master
