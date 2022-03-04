@@ -9,6 +9,13 @@ git:
   depth: 3
 script:
   - yarn build
+notifications:
+  email:
+    recipients:
+      - genesis.jz.93@gmail.com
+      - doblesesays@outlook.com
+    on_success: always
+    on_failure:  always
 deploy:
   provider: pages
   skip-cleanup: true
